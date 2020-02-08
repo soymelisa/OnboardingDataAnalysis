@@ -26,25 +26,32 @@ Si haces uso de los datos públicos a continuación algunas sugerencias para bus
    - https://archive.ics.uci.edu/ml/datasets.php
 
 
-Definir una estructura de carpetas para tu proyecto, cuando menos crea una carpeta donde ir guardando todos los archivos y resultados
-$ mkdir MiProyecto
-$ cd MiProyecto
-MiProyecto $
-Si necesitas más carpetas siéntete libre de crear cuantas necesites.
-Descarga u obtén el conjunto de datos elegido y colocalo dentro de la carpeta de tu proyecto.
-MiProyecto $ curl -O URL-al-conjunto-de-datos
-[...]
-MiProyecto $ unzip archivo.zip  # Sólo en caso de requerir descomprimir
-MiProyecto $ rm archivp.zip  # Elimina el archivo zip en caso de existir
-MiProyecto $
+1. Definir una estructura de carpetas para tu proyecto, cuando menos crea una carpeta donde ir guardando todos los archivos y resultados
+   ```console
+   $ mkdir MiProyecto
+   $ cd MiProyecto
+   MiProyecto $
+   ```
+   Si necesitas más carpetas siéntete libre de crear cuantas necesites.
+
+1. Descarga u obtén el conjunto de datos elegido y colocalo dentro de la carpeta de tu proyecto.
+   ```console
+   MiProyecto $ curl -O URL-al-conjunto-de-datos
+   [...]
+   MiProyecto $ unzip archivo.zip  # Sólo en caso de requerir descomprimir
+   MiProyecto $ rm archivp.zip  # Elimina el archivo zip en caso de existir
+   MiProyecto $
 
 ![imagenpostwork1](screenshots/postwork1.png)
 
-Crea una copia de respaldo de tu proyecto, nunca está de más
-MiProyecto $ cd ..
-$ cp -a MiProyecto MiProyecto.1
-$ ls
-MiProyecto MiProyecto.1
+1. Crea una copia de respaldo de tu proyecto, nunca está de más
+   ```console
+   MiProyecto $ cd ..
+   $ cp -a MiProyecto MiProyecto.1
+   $ ls
+   MiProyecto MiProyecto.1
+   $
+   ```
 
 ![imagenpostwork1](screenshots/postwork01-02.png)
 
