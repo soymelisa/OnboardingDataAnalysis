@@ -1,0 +1,5 @@
+mkdir Datos
+cd Datos
+curl -O http://files.grouplens.org/datasets/movielens/ml-20mx16x32.tar
+ls
+mkdir dirname	make directory called dirname
