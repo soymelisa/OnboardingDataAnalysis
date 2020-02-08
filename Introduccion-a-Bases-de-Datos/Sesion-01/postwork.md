@@ -38,7 +38,9 @@ MiProyecto $ unzip archivo.zip  # Sólo en caso de requerir descomprimir
 MiProyecto $ rm archivp.zip  # Elimina el archivo zip en caso de existir
 MiProyecto $
 
-![imagen1](imagenes/s1pw1.png)
+![imagenpostwork1](screenshots/postwork1.png)
+
+/home/soymelisa/Documents/SandBox_DataAnalysis/OnboardingDataAnalysis/Introduccion-a-Bases-de-Datos/Sesion-01/screenshots/postwork1.png
 
 Crea una copia de respaldo de tu proyecto, nunca está de más
 MiProyecto $ cd ..
@@ -51,4 +53,6 @@ Si observas que algunas tareas se podrían realizar continuamente, posiblemente 
 Si creas un script recuereda que puede realizarlo con el editor nano desde la terminal y para ejecutarlo utiliza el comando bash.
 Es recomendable validar los resultado de cada script para tener la certeza de que realizan exactamente lo que se necesita.
 
+### AQUÍ PUEDES VER EL DETALLE DE MI POSTWORK EN DOC: 
+https://docs.google.com/document/d/1vqKvbUB-UQv8F1PdNe1d_G0PV5RSuy_x9ujdj9TMTpY/edit?usp=sharing
 
