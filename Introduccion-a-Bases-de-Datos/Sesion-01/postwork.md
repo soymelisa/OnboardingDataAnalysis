@@ -40,13 +40,13 @@ MiProyecto $
 
 ![imagenpostwork1](screenshots/postwork1.png)
 
-/home/soymelisa/Documents/SandBox_DataAnalysis/OnboardingDataAnalysis/Introduccion-a-Bases-de-Datos/Sesion-01/screenshots/postwork1.png
-
 Crea una copia de respaldo de tu proyecto, nunca está de más
 MiProyecto $ cd ..
 $ cp -a MiProyecto MiProyecto.1
 $ ls
 MiProyecto MiProyecto.1
+
+![imagenpostwork1](screenshots/postwork01-02.png)
 
 Puedes decidir crear un respaldo de alguna otra carpeta, según sea necesario.
 Si observas que algunas tareas se podrían realizar continuamente, posiblemente sea bueno crear un script para automatizar estas tareas, entonces crea uno o más script que realicen las cosas por tí, como es el caso de preparar las carpetas, obtener los archivos o eliminar archivos temporales.

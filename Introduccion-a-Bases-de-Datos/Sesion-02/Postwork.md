@@ -5,9 +5,11 @@ Aplicar los conceptos de la sesión a tu proyecto personal
 Automatizar las tareas que sean factibles
 Realizar consultas usando expresiones regulares
 Realizar consultas haciendo uso de más de un archivo
+
 ### REQUISITOS
 Git Bash instalado para equipos con Windows
 Carpeta de repositorio actualizada
+
 ### DESARROLLO
 En esta sesión ya debes de contar con un conjunto de datos definido y listo en una carpeta para trabajar.
 Lo siguiente es que puedas formular consultas a tus datos, desde las consultas mas simples a las más complejas, a continuación se sugieren algunos casos.
@@ -16,6 +18,7 @@ Hacer uso del comando head, tail, cat y sed para analizar, filtrar y reemplazar 
 Analizando el contenido de un archivo:
 Datos $ head nombre-archivo.ext
 [... primeras 10 líneas de tu archivo ...]
+
 ### Importante
 No importa el tamaño de tus archivos, las herramientas de la terminal siempre serán tus amigas.
 Reemplazando secciones de un archivo:
@@ -33,8 +36,6 @@ Ya que los archivos están en formato CSV, entonces se puede iniciar a realizar 
 Datos $ grep -a CRITERIO archivo.csv | head
 [... 10 primeras líneas del resultado ...]
 Datos $
-
-
 
 
 Si los resultados son satisfactorios entonces los contamos o guardamos, 
@@ -60,3 +61,5 @@ Datos $ grep -aE ^Palabra archivo.csv | head
 ###  Nota:
 Si tienes consultas que no puedas realizar es buen momento para comentarlo con tu Experta/o asignado para determinar si es factible realizar o hay que esperar a hacer uso de SQL.
 
+### Doc:
+https://docs.google.com/document/d/15LO4AkRNnmIQc2R5wyD-dp4YJKtNPVahyAsiR67q3jQ/edit?usp=sharing 
