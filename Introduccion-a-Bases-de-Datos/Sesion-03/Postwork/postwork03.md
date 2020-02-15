@@ -1,4 +1,3 @@
-(../../Readme.md) > [`Sesión 03`](../Readme.md) > Postwork
 ## Postwork
 
 ### OBJETIVOS
@@ -32,7 +31,8 @@ En esta sesión se hará uso de la carpeta de Datos que se generó en la `Sesion
 
 1. Para cada archivo CSV realizar el proceso:
    - Analizar contenido del archivo
-![imagenpostwork1](screenshots/01_Analizar-contenido-del-archivo.png)
+   
+![imagenpostwork3](screenshotsPostwork03/01_Analizar-contenido-del-archivo.png)
 
    - Definir lista de campos y tipos de datos para cada uno
 `Users` en SQL: 
@@ -42,14 +42,14 @@ En esta sesión se hará uso de la carpeta de Datos que se generó en la `Sesion
    - __ocup__ INT
    - __cp__ VARCHAR(20)
 
-![imagenpostwork1](screenshots/users_part-01.png)
+![imagenpostwork3](screenshotsPostwork03/users_part-01.png)
 
 `Movies` en SQL: 
    - __MovieID__ INT PRIMARY KEY
    - __Title__ VARCHAR(1)
    - __Genres__ VARCHAR(20)
    
-![imagenpostwork1](screenshots/movies_03-01.png)
+![imagenpostwork3](screenshotsPostwork03/movies_03-01.png)
 
 `Ratings` en SQL: 
    - __UserID__ INT PRIMARY KEY
@@ -57,28 +57,28 @@ En esta sesión se hará uso de la carpeta de Datos que se generó en la `Sesion
    - __Rating__ INT
    - __Timestamp__ VARCHAR(20)
 
-![imagenpostwork1](screenshots/Ratings_info.png)
+![imagenpostwork3](screenshotsPostwork03/Ratings_info.png)
 
    - Realizar conexión al Servidor MariaDB/MySQL usando el comando `mycli`
 
-![imagenpostwork1](screenshots/1_Conectarme_.png)
+![imagenpostwork3](screenshotsPostwork03/1_Conectarme_.png)
 
    - Hacer uso de tu base de datos con la instrucción SQL `USE`
-![imagenpostwork1](screenshots/use_4DB.png)
+![imagenpostwork3](screenshotsPostwork03/use_4DB.png)
 
    - Crear la tabla usando la instrucción `CREATE` en SQL
-![imagenpostwork1](screenshots/Create_DB.png)
+![imagenpostwork3](screenshotsPostwork03/Create_DB.png)
 
    - Importar datos a la tabla usando la instrucción `LOAD` y habilitando los permisos para `mycli` con la opción `--local-infile true`
-![imagenpostwork1](screenshots/--local-infile--true.png)
-![imagenpostwork1](screenshots/Load_Data_Local_Infile.png)
-![imagenpostwork1](screenshots/SelectAllFromUsersLimit10.png)
-![imagenpostwork1](screenshots/Truncate_users.png)
+![imagenpostwork3](screenshotsPostwork03/--local-infile--true.png)
+![imagenpostwork3](screenshotsPostwork03/Load_Data_Local_Infile.png)
+![imagenpostwork3](screenshotsPostwork03/SelectAllFromUsersLimit10.png)
+![imagenpostwork3](screenshotsPostwork03/Truncate_users.png)
 
    - Validar que los datos se hayan importado correctamente haciendo uso de la instrucción `SELECT` tanto a nivel de campos, como en el número de registros importados.
 MelisaPerez> LOAD DATA LOCAL INFILE "users.csv" INTO TABLE users FIELDS TERMINATED BY ",";
-![imagenpostwork1](screenshots/Select_correct_2.png)
-![imagenpostwork1](screenshots/COUNT_Users.png)
+![imagenpostwork3](screenshotsPostwork03/Select_correct_2.png)
+![imagenpostwork3](screenshotsPostwork03/COUNT_Users.png)
 
 
 __Meta:__ Toma en cuenta que tu objetivo es que logres contar con todo tu conjunto de datos importado en el servidor para más adelante poder realizar consultas.
