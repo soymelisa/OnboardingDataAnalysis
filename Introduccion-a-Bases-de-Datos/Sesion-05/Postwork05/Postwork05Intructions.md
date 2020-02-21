@@ -47,41 +47,45 @@ bookID,title,authors,avarage_rating,isbn,isbn13,language_code,# num_pages, ratin
 
 #### (3) Consultas
 
-*Aquí pongan las consultas que pensaron y como primera línea pongan con qué la van a ejecutar, es decir, un filtro, proyección, ordenamiento, etc.*
+1. ¿Había algún campo nulo?
+```json
+{bookID:""}
+```
 
-1. Realizar consultas a tus datos por medio de realizar filtrado de datos, respondiendo a preguntas como:
-   - ¿cuántos registros hay de cierto tipo o categoría?
-   - ¿cuántos registros hay de dos o más categorías?
-   - ¿cuántos registros hay donde un campo sea mayor, meno o igual a cierto valor?
-   - ¿cuántos registros tienen un campo que puede o no pertenecer a una lista de valores?
-   - O preguntas que utilicen alguna combinación de las anteriores
+![imagenpostwork5](screenshotsPostwork05/objectNULL.png)
 
-   __Meta 2:__ Lograr responder a preguntas con resultados útiles.
-
-
-1. ¿Pregunta 1?
-
-*Solución:*
+2. ¿Cuántos libros tienen rating de 4.55?
 
 ```json
 // FILTER
-{campo: "Valor"}
+{average_rating: "4.55"}
+```
+![imagenpostwork5](screenshotsPostwork05/average_rating1.png)
+
+3. ¿Cuántos libros que no están en inglés y tienen un rating de 4.55?
+
+```json
+{language_code: {$nin: ["eng"]}, average_rating: "4.55"} 
 ```
 
-2. ¿Pregunta 2?
+![imagenpostwork5](screenshotsPostwork05/not-in-english-and-good-rating.png)
 
-*Solución:*
+
+4. ¿Cuántos libros tienen rating de 5?
 
 ```json
 // SORT
-{campo: -1}
+{average_rating: -1}
 ```
+![imagenpostwork5](screenshotsPostwork05/boooks_with_5-25.png)
 
-3. ¿Pregunta 3?
+*Solución:* Son 25 libros que tienen un rating de 5 cerrado
 
-*Solución:*
 
+5. ¿Cuántos libros tienen rating de 5 pero nada de reviews y su cuenta es 1?
 ```json
-// PROJECTION
-{campo: 1}
+{ratings_count:"1", text_reviews_count:"0", average_rating:"5.00"}
 ```
+
+![imagenpostwork5](screenshotsPostwork05/rating5perosinreviews.png)
+
