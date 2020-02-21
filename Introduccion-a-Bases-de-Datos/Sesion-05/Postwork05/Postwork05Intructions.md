@@ -26,20 +26,8 @@ Colección: book_title
 
 #### (2) Estructura del archivo CSV
 
-*Aquí pongan el header del archivo CSV que usaron como dataset. La idea es que contrasten los documentos cargados en MongoDB con este header para asegurar que la carga fue correcta.*
+*Header del archivo CSV que usaron como dataset*
 
-{"_id":
-    {"$oid":"5e4fde511e69422f6f837aca"}, 
-    "bookID":"1",
-    "title":"Harry Potter and the Half-Blood Prince (Harry Potter  #6)",
-    "authors":"J.K. Rowling-Mary GrandPré",
-    "average_rating":"4.56",
-    "isbn":"0439785960",
-    "isbn13":"9780439785969",
-    "language_code":"eng",
-    "# num_pages":"652",
-    "ratings_count":"1944099",
-    "text_reviews_count":"26249"}
 
 ```
 bookID,title,authors,avarage_rating,isbn,isbn13,language_code,# num_pages, ratings_count,text_reviews_count
