@@ -21,7 +21,7 @@ Colección: book_title
 
 ![imagenpostwork5](Screenshots_postwork06/2rating_counts.png)
 
-2. MATCH 
+2. 
 
 ```json
 {
@@ -29,6 +29,14 @@ Colección: book_title
   average_rating: "4.55"
 }
 ```
-
 ![imagenpostwork5](Screenshots_postwork06/2postwork02.png)
+
+3. $ MATCH los ratings de 5 (pero a{un no está filtrado el orden})
+
+```json
+{
+	ratings_count: RegExp('5.0$')
+}
+```
+![imagenpostwork5](Screenshots_postwork06/ratings_count.png.png)
 
