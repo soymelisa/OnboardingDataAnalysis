@@ -38,5 +38,5 @@ Colección: book_title
 	ratings_count: RegExp('5.0$')
 }
 ```
-![imagenpostwork5](Screenshots_postwork06/ratings_count.png.png)
+![imagenpostwork5](Screenshots_postwork06/ratings_count.png)
 
