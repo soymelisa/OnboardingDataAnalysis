@@ -28,7 +28,6 @@ Colección: book_title
 
 *Header del archivo CSV que usaron como dataset*
 
-
 ```
 bookID,title,authors,avarage_rating,isbn,isbn13,language_code,# num_pages, ratings_count,text_reviews_count
 ```
