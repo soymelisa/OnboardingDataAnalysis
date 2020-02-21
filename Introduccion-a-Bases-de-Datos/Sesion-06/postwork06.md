@@ -19,6 +19,7 @@ Colección: book_title
 {ratings_count: -1}
 ```
 
+![imagenpostwork5](Screenshots_postwork06/2rating_counts.png)
 
 2. MATCH 
 
@@ -28,3 +29,6 @@ Colección: book_title
   average_rating: "4.55"
 }
 ```
+
+![imagenpostwork5](Screenshots_postwork06/2postwork02.png)
+
