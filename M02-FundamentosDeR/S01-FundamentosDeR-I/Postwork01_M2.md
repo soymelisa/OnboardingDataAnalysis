@@ -23,3 +23,15 @@ lsf.str("package:ggplot2")
 Ejercicio simple calculadora:
 ![imagenpostwork1_m2_03](screenshots_postwork1_M2/ejemploSimpleR_1.JPG)
 
+2+6
+
+10*4
+
+6/3
+
+log(12)
+
+sqrt(121)
+
+x<-8+7
+x
