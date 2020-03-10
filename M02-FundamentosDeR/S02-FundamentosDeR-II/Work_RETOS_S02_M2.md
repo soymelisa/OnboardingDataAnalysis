@@ -52,6 +52,53 @@ mtcars[1:20, c(4,5)]
 
 - Elimina la segunda columna del dataframe
 
+```
 mtcars$cyl <- NULL
+```
 
-![imagenReto_3](screenshots_M2/S02_reto2_parte2.JPG)
+![imagenReto_2-3](screenshots_M2/S02_reto2_parte2.JPG)
+
+### 3
+
+`Reto-03`:
+- Encontrar máximos y minimos de una columna
+- Encontrar valores únicos por columna
+- Seleccionar renglones que cumplan condiciones
+
+### INSTRUCCIONES DEL RETO
+- Responde: ¿Cuál es el máximo de la columna carb?
+```
+max(mtcars$carb)
+```
+
+- Responde: ¿Cuál es el mínimo de la columan qsec?
+```
+min(mtcars$qsec)
+```
+
+- Guarda el promedio de la columna carb en mean.carb
+```
+mean.carb <- mean(mtcars$carb)
+```
+
+- Guarda el promedio de la columna qsec en mean.qsec
+```
+mean.qsec <- mean(mtcars$qsec)
+```
+
+- Selecciona los renglones que tengan cyl mayor al promedio (mean.cyl)
+
+```
+mtcars[mtcars$carb > mean.carb, ]
+```
+
+- Selecciona los renglones que tengan cyl mayor al promedio (mean.carb) y qsec mayor al promedio (mean.qsec) y guarda la última instruccion en un dataframe que tenga el nombre mtcars.filtrados
+
+```
+mtcars.filtrados <- mtcars[(mtcars$carb > mean.carb) & (mtcars$qsec > mean.qsec), ]
+```
+
+![imagenReto_3](screenshots_M2/S02_reto3_parte1.JPG)
+
+
+
