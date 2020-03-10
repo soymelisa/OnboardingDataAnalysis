@@ -1,25 +1,14 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R` 
-
 ## Data Frames
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-02` serás capaz de:
+`Ejercicio-02`:
 - Crear un dataframe
 - Ver las características de un dataframe
 - Accesar a los elementos de un dataframe
 - Agregar datos a un dataframe
 - Transformar una columna 
 - Agregar o eliminar columnas
-
-### REQUISITOS
-
-1. Completar el prework
-2. R versión 3.6.2 o mayor
-3. R Studio versión 1.2.5033 o mayor 
-4. Git Bash
-5. Completar el `Ejemplo-01` 
-6. Completar el `Reto-01`
 
 ### TEORÍA: DATAFRAMES
 
