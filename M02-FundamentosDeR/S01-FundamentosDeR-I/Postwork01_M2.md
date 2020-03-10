@@ -20,3 +20,6 @@ lsf.str("package:ggplot2")
 ```
 ![imagenpostwork1_m2_02](screenshots_postwork1_M2/lsf_str_package_ggplot2.JPG)
 
+Ejercicio simple calculadora:
+![imagenpostwork1_m2_03](screenshots_postwork1_M2/ejemploSimpleR_1.JPG)
+
