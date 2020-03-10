@@ -1,21 +1,9 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R` 
-
 ## Lectura de Datos
 
 ### OBJETIVO
-
-Al final de el `Ejercicio-03` serás capaz de:
+`Ejercicio-03`:
 - Leer archivos csv que están en local
 - Leer archivos csv que están en una página URL
-
-### REQUISITOS
-
-1. Completar el prework
-2. R versión 3.6.2 o mayor
-3. R Studio versión 1.2.5033 o mayor 
-4. Git Bash
-5. Completar el `Ejemplo-03` 
-6. Completar el `Reto-03`
 
 ### TEORÍA: LECTURA DE DATOS
 
