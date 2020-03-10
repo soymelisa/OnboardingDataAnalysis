@@ -2,7 +2,7 @@
 
 ### OBJETIVOS
 
-- En este postwork es poder identificar las opciones de datasets que tenemos, para poder tener más claridad al momento de elegir el que será la base del proyecto a desarrollar en este módulo.  
+- En este postwork es poder identificar las opciones de datasets que tenemos, para poder tener más claridad al momento de elegir el que será la base del proyecto a desarrollar en este módulo.
 
 #### DESARROLLO
 
