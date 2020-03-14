@@ -67,7 +67,7 @@ hist(duracion, col='orange', breaks=40,
 - Comprobar la estructura de la tabla
 - Ver correlaciones entre variables
 
-#### REQUISITOS
+#### RgitEQUISITOS
 1. Contar con R studio.
 1. Usar la carpeta de trabajo `Sesion04/Reto-02`
 
