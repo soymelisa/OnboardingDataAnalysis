@@ -39,5 +39,3 @@ Ejemplo de salida: Sepal.Length. Utiliza las siguientes funciones:
 
 Escribe un ciclo while que imprima números normales aleatorios estándar (que use rnorm (), pero se detiene (breaks) si obtiene un número mayor que 1.  
 
-
-
