@@ -1,5 +1,5 @@
 head(iris)
-random <- sample(1:nrow(iris), 0.89 * nrow(iris)) 
+random <- sample(1:nrow(iris), 0.9 * nrow(iris)) 
 normalizado <-function(x) {(x -min(x))/(max(x)-min(x))}
 iris_normalizado <- as.data.frame(lapply(iris[,c(1,2,3,4)], normalizado))
 iris_training <- iris_normalizado[random,] 
@@ -11,3 +11,6 @@ predic <- knn(iris_training,iris_test,cl=iris_categoria_target,k=13)
 con_mat <- table(predic,iris_categoria_test)
 precision <- function(x){sum(diag(x)/(sum(rowSums(x)))) * 100}
 precision(con_mat)
+
+
+
