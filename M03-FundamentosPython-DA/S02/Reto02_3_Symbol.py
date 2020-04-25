@@ -45,10 +45,11 @@ for x in range(n):
     clave += random.choice(simbolos)
 
     nl= m - 4
-    # clave = clave + -k letras- 
     faltan = random.choices(alfabeto, k=nl)
 
-    faltan = "".join(faltan) 
-    clave += faltan # es como decir, clave = clave + faltan
+    faltan = "".join(faltan)  
+    clave += faltan 
     # regresamos o convertimos listas a str para obtener la clave concatenada
+    clave = "".join(random.sample(clave, m)) 
     print(clave)
+
