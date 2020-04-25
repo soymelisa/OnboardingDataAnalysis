@@ -22,9 +22,12 @@ recorridos = [
 
 ]
 
-#Imprimimos tabla (vista)
 print("-"*40)
+# print("{:10} {:10} {:5} {:5}".format(llaves[0], llaves[1], llaves[2], llaves[3]))
+print("{:10} {:10} {:5} {:5}".format(*recorridos[0].keys()))
+print("-"*40)
+
 for recorrido in recorridos:
     print("{ORIGEN:10} {DESTINO:10} {DISTANCIA:10} {TIEMPO:10}".format(**recorrido))
-print ("-"*43)
+print ("-"*40)
 
