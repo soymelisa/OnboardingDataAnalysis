@@ -1,6 +1,5 @@
 #### Importación de módulos
-import random 
-
+import random
 
 esCorrecto = False
 while not esCorrecto:
@@ -33,16 +32,20 @@ print(m, type(m))
 mayusculas = "ABCCDEFGHIJKLMNOPQRSTUVWXYZ"
 minusculas = mayusculas.lower()
 digitos = "1234567890"
-alfabeto = mayusculas + minusculas + digitos
+simbolos = "¡?=)(/&%$#_:[*¨?" # string.punctuation()
+
+alfabeto = mayusculas + minusculas + digitos + simbolos
+
+# from string import punctuation, ascii_letters, digits
 
 for x in range(n):
     clave = random.choice(mayusculas)
     clave += random.choice(minusculas)
     clave += random.choice(digitos)
+    clave += random.choice(simbolos)
 
-    nl= m - 3
+    nl= m - 4
     # clave = clave + -k letras- 
-    ## alfabeto = mayusculas + minusculas + digitos
     faltan = random.choices(alfabeto, k=nl)
 
     faltan = "".join(faltan) 
