@@ -54,7 +54,7 @@ def imprime_entradas(entradas, total):
 # Controlador:
 # Manipula las funciones del modelo y la vista 
 
-def guarda_entradas(entradas, total, arch_salida):
+def guarda_entradas(entradas, total, arch_salida_json):
     """" Guarda la lista de entradas en el archivo arch_salida en forma tabular """
     # da = open(arch_salida, "w") #1, en ¿nombre del archivo que vamos a trabajar. 2, el modo en el que trabajamos el archivo
     # for e in entradas:
@@ -69,8 +69,7 @@ def guarda_entradas(entradas, total, arch_salida):
         
         for e in entradas:
             da_csv.writerow(e) # e = ["nomb", 1234, "fecha"] 
-        # ---
-M VMMMMMMMMMMMMMMMMMMMMMMMMBNVVVVVVVVVVVVVVVVVVVVVVVVVVVNNNN    BCXVVCVVVVVCCCCCCCCCC  XCBVVVVVVVCCC   
+        # --- 
 def main():
     """ Función principal del script """
     ruta ="C:/Users/soyme/SandBox2020/OnboardingDataAnalysis/M03-FundamentosPython-DA/"
