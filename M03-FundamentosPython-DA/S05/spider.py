@@ -1,6 +1,6 @@
 import scrapy
 
-class Citas Spider(scrapy.Spider): 
+class CitasSpider(scrapy.Spider): 
     name = "citas"
     start_urls = [
         'http://quotes.toscrape.com/',
@@ -14,4 +14,8 @@ class Citas Spider(scrapy.Spider):
             }
 
 
-        print(response.css("div.quote"))
+        pagsig = response.css("li.next a::attr('href')").get()
+        if pagsig is not None: # hay p{agina siguiente? 
+            yield response.follow(pagsig, self.parse)
+            
+
